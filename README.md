@@ -54,6 +54,10 @@ Training saves checkpoints under `trained_models/<architecture>/` and fold histo
 - Test files verify shapes, parameter counts, loss, subject splits, and synthetic-data execution.
 - Only Sleep-EDF loading is implemented here; the other dataset channel names in `config.py` are informational and do not enable additional loaders.
 
+## Contact
+- Raheel Aslam — raheel.mark88@gmail.com
+- Corresponding author: Guo Shengwen — shwguo@scut.edu.cn
+
 ## License
 
 No license has been selected for this repository. Add a `LICENSE` file if you intend to grant reuse permissions.
