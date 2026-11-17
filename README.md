@@ -61,7 +61,6 @@ Training saves checkpoints under `trained_models/<architecture>/` and fold histo
 ## Contact
 
 - **Raheel Aslam** — `raheel.mark88@gmail.com`
-- **Corresponding author: Guo Shengwen** — `shwguo@scut.edu.cn`  
 
 ## License
 
