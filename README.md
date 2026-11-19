@@ -53,7 +53,7 @@ Training saves checkpoints under `trained_models/<architecture>/` and fold histo
 ## Notes
 
 - **L=1** refers to one 30-second EEG segment, not the number of LSTM layers.
-- Checkpoints from the previous decoder-free release are incompatible with the new encoder–decoder architecture. Train new checkpoints before evaluation.
+- Train the model and save new checkpoints before evaluation. Checkpoints must be compatible with the current model architecture and configuration.
 - An untrained network's parameter count does **not** establish clinical performance. No real dataset training results or pretrained weights are included.
 - Test files verify shapes, parameter counts, loss, subject splits, and synthetic-data execution.
 - Only Sleep-EDF loading is implemented here; the other dataset channel names in `config.py` are informational and do not enable additional loaders.
